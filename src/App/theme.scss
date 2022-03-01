@@ -1,0 +1,345 @@
+.theme-contrast {
+  --colorPriamry: #ffd000;
+  --navbarBgColor: #0d0d0d;
+  --bgColorPrimary: #0d0d0d;
+  --secendaryColor: #ffd000;
+  --titleColor: #0d0d0d;
+  --titleColorFont: #ffd000;
+
+  --global-color-accent: #ffd000;
+  --global-color-accent-light: white;
+  --input-color: #ffd000;
+  --separators: #ffd000;
+  --footer1: #0d0d0d;
+  --footer1a: #0d0d0d;
+  --footer2: #0d0d0d;
+  --foter2a: #ffd000;
+
+  & .navBar {
+    box-shadow: none;
+    border-color: var(--global-color-accent);
+  }
+
+  & .secendaryHeader::before {
+    background: var(--global-color-accent);
+  }
+
+  & hr {
+    border-bottom: 0;
+    color: #505050;
+    height: 0 !important;
+  }
+
+  & .dx-icon {
+    color: white;
+  }
+
+  & footer #info {
+    border: solid 1px;
+  }
+  & footer #socket {
+    border: solid var(--foter2a);
+    border-width: 0px 1px 1px 1px;
+  }
+
+  & #socket {
+    color: white;
+  }
+
+  & .dx-fileuploader-file-name {
+    color: white;
+  }
+
+  & .dx-fileuploader-button.dx-button-mode-contained {
+    background-color: transparent;
+    color: white;
+  }
+
+  & button.wcag.btn {
+    border: solid white 2px;
+  }
+
+  & .dx-htmleditor-content {
+    color: white;
+  }
+
+  & .buttonPrimarySection .dx-button-mode-contained {
+    /* background-color: #fff; */
+    border-color: #ddd;
+    color: white;
+  }
+
+  & .buttonPrimarySection .dx-button {
+    background-color: transparent;
+  }
+
+  & .buttonPrimarySection #submitButton {
+    color: var(--global-color-accent);
+    border-color: var(--global-color-accent);
+  }
+
+  & .buttonPrimarySection #submitButton:hover {
+    background: var(--global-color-accent);
+    color: black;
+  }
+
+  & .dx-item.dx-list-item {
+    background: black;
+    color: var(--global-color-accent);
+  }
+
+  &
+    .dx-overlay-content.dx-popup-normal.dx-popup-draggable.dx-resizable.dx-popup-inherit-height {
+    background: black;
+    color: var(--global-color-accent);
+  }
+
+  & .dx-item.dx-toolbar-item.dx-toolbar-label {
+    color: var(--global-color-accent);
+  }
+
+  & .dx-button-mode-contained {
+    background-color: transparent;
+    color: var(--global-color-accent);
+    border-color: var(--global-color-accent);
+  }
+
+  & .dx-datebox-wrapper-calendar .dx-popup-content {
+    background: black;
+    color: white;
+  }
+
+  & .dx-popup-content 
+
+  & .popupHeader {
+    color: var(--global-color-accent);
+  }
+
+  & a {
+    color: var(--global-color-accent);
+  }
+
+  & .dx-overlay-shader {
+    background-color: rgb(16 16 16 / 80%) !important;
+  }
+
+  &
+    .dx-toolbar.dx-widget.dx-visibility-change-handler.dx-collection.dx-popup-title.dx-has-close-button {
+    background-color: black;
+  }
+
+  & .popup.btn {
+    color: black;
+  }
+
+  & .dx-htmleditor.dx-htmleditor-outlined.dx-invalid,
+  & .dx-invalid.dx-texteditor {
+    border-color: red;
+  }
+
+  & .datarow {
+    color: var(--global-color-accent);
+  }
+
+  & .buttonStatusSection div#button {
+    background: var(--global-color-accent);
+    color: black;
+  }
+
+  & .buttonStatusSection div#button:hover {
+    background: white;
+  }
+
+  & .is-current .ProgressBar-icon {
+    background-color: var(--global-color-accent);
+  }
+
+  & .is-current > .ProgressBar-stepLabel {
+    color: var(--global-color-accent);
+  }
+
+  & .is-complete .ProgressBar-icon,
+  & .ProgressBar-step:after {
+    background-color: var(--global-color-accent);
+  }
+
+  & .is-current .ProgressBar-icon {
+    fill: transparent;
+  }
+
+  & .is-complete > .ProgressBar-stepLabel {
+    color: var(--global-color-accent);
+  }
+
+  & .is-complete .ProgressBar-icon {
+    fill: black;
+  }
+
+  & .imgCard img {
+    filter: invert(71%) sepia(96%) saturate(892%) hue-rotate(359deg)
+      brightness(103%) contrast(104%);
+  }
+
+  & .card.option:hover {
+    background-color: #c5c5c51a;
+  }
+
+  & p.font-italic {
+    color: var(--global-color-accent);
+  }
+
+  & body .dx-item-content,
+  & .dx-field-label {
+    color: var(--global-color-accent);
+  }
+
+  & .dx-texteditor.dx-editor-underlined {
+    border-bottom: 1px solid var(--global-color-accent);
+  }
+
+  & .dx-texteditor-input {
+    color: var(--global-color-accent);
+  }
+
+  & .dx-datebox-calendar .dx-dropdowneditor-icon::before {
+    color: var(--global-color-accent);
+  }
+  & .dx-radiobutton-icon::before {
+    background-color: black;
+  }
+  & .btnPrev {
+    border-color: #ddd;
+    color: white;
+    background-color: transparent;
+  }
+  & .btnNext {
+    color: var(--global-color-accent);
+    border-color: var(--global-color-accent);
+    background-color: transparent;
+  }
+  & .btnNext:hover {
+    background: var(--global-color-accent);
+    color: black;
+  }
+  &
+    .dx-dropdowneditor.dx-state-hover:not(.dx-custom-button-hovered)
+    .dx-dropdowneditor-icon,
+  &
+    .dx-dropdowneditor.dx-state-hover:not(.dx-custom-button-hovered)
+    .dx-dropdowneditor-icon {
+    background-color: transparent;
+  }
+  & .dx-dropdowneditor.dx-dropdowneditor-active .dx-dropdowneditor-icon {
+    background-color: transparent;
+  }
+  & .dx-dropdowneditor.dx-state-active .dx-dropdowneditor-icon {
+    background-color: transparent;
+  }
+  & .dx-popup-wrapper > .dx-overlay-content {
+    background-color: black;
+  }
+  & .dx-calendar {
+    background-color: black;
+  }
+  & .dx-calendar-cell {
+    color: var(--global-color-accent);
+  }
+  & .dx-calendar-cell.dx-calendar-other-view:not(.dx-calendar-selected-date) {
+    color: #6a6a6a;
+  }
+  & .dx-calendar-cell.dx-calendar-selected-date.dx-calendar-contoured-date {
+    color: black;
+  }
+  & .dx-switch-container {
+    background: black;
+  }
+  & .dx-switch-on {
+    color: white;
+  }
+  & .formSection:focus-within .secendaryHeader::before {
+    width: var(--bar-width);
+  }
+  & .formSection:focus-within .secendaryHeaderText {
+    color: var(--global-color-accent);
+  }
+  & .dx-dropdowneditor-icon::before {
+    color: white;
+  }
+  &
+    .dx-list:not(.dx-list-select-decorator-enabled)
+    .dx-list-item.dx-list-item-selected {
+    background-color: rgb(54 54 54);
+  }
+  &
+    .dx-list:not(.dx-list-select-decorator-enabled)
+    .dx-list-item.dx-state-hover {
+    background-color: rgb(46 46 46);
+  }
+  &
+    .dx-list:not(.dx-list-select-decorator-enabled)
+    .dx-list-item.dx-list-item-selected.dx-state-hover:not(.dx-state-focused) {
+    background-color: rgb(54 54 54);
+  }
+  & .validationText {
+    color: var(--global-color-accent);
+  }
+  & .btn:hover {
+    color: var(--global-color-accent);
+  }
+  & .isOwner {
+    background-color: black;
+  }
+  & .owner.card-title {
+    color: black;
+  }
+  & .pull-right {
+    filter: invert(1);
+  }
+  & body .dx-item-content {
+    background-color: var(--bgColorPrimary);
+  }
+  & .activeDiv {
+    color: black;
+  }
+  & .dx-accordion {
+    background-color: black !important;
+  }
+  & .dx-datagrid {
+    background-color: unset;
+  }
+  & .dx-datagrid-addrow-button .dx-icon-edit-button-addrow::before {
+    background: black;
+  }
+  & .dx-datagrid-nodata,
+  & .dx-datagrid-headers {
+    color: var(--global-color-accent);
+  }
+  & .dx-datagrid.dx-gridbase-container {
+    border: solid 1px var(--global-color-accent);
+  }
+  & .dx-empty-message {
+    color: var(--global-color-accent);
+  }
+  & .dx-accordion-item-opened.dx-state-hover > .dx-accordion-item-title,
+  .dx-accordion-item-opened > .dx-accordion-item-title {
+    background-color: var(--bgColorPrimary);
+  }
+  & span.dx-checkbox-icon
+  {
+    background-color: var(--bgColorPrimary);
+  }
+  & .adnotation 
+  {
+    color: white;
+  }
+  & button.btn-primary.addCo
+  {
+    color: black;
+    border-color: var(--global-color-accent);
+  }
+  & button.btn-primary.addCo:hover
+  {
+    color: var(--global-color-accent);
+    background-color: transparent;
+  }
+}

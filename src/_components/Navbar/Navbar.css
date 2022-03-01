@@ -1,0 +1,112 @@
+.default 
+{
+    --navbarBgColor: #ffffff;
+}
+
+.navBar {
+    font-family: "Roboto", sans-serif;
+    padding: 8px 8px 8px 8px;
+    box-shadow: 0px 5px 5px rgb(170 170 170 / 75%);
+    background: var(--navbarBgColor);
+    border-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    position: fixed;
+    width: 100%;
+    z-index: 255;
+    top: 0;
+  }
+
+  
+#siteLogo {
+    width: auto;
+    overflow: hidden;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+  }
+  
+  .navHeader {
+    color: var(--global-color-accent);
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    letter-spacing: 0.8px;
+  }
+  
+  .navHeader div.initial {
+    border: solid 2px var(--global-color-accent);
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 4px;
+  }
+  
+  #siteLogo {
+    height: 50px;
+    min-width: 40px;
+    overflow: hidden;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 5px;
+  }
+  
+  div.main.container-fluid .card {
+    margin-top: 70px;
+  }
+  
+  div.mainHeader {
+    height: 282px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center 58px;
+    background-size: auto 328px;
+  }
+  
+  @media screen and (min-width: 1921px) {
+    html body div.mainHeader {
+      background-size: contain;
+      background-position-y: 0%;
+    }
+  }
+
+  button.wcag.btn {
+    background: black;
+    color: white;
+    padding: 8px 24px;
+    margin-right: 12px;
+    border-radius: 0;
+    border: solid transparent 2px;
+  }
+  button.wcag.btn:hover {
+    background: white;
+    border: solid black 2px;
+    color: black;
+  }
+
+  .imgButton {
+    cursor: pointer;
+  }
+  .fontToUpper {
+    color: var(--colorPriamry);
+    font-weight: 400;
+    font-size: 26px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .fontToLower {
+    color: var(--colorPriamry);
+    font-size: var(--fontPrimarySize);
+    cursor: pointer;
+    margin: 5px;
+  }
+  .fontToNormal {
+    color: var(--colorPriamry);
+    font-size: var(--fontPrimarySize);
+    cursor: pointer;
+    margin: 5px;
+  }

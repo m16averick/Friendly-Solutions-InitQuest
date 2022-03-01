@@ -1,0 +1,283 @@
+@media screen and (min-width: 1921px) {
+  .col-12.col-xl-8.left .formSection
+  {
+    margin-left: 10%;
+  }
+  .buttonSection
+  {
+    padding-left: 10%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .col-12.col-xl-4.attachments {
+    order: 1;
+  }
+  .col-12.col-xl-8.left {
+    order: 2;
+  }
+  .ProgressBar {
+    flex-direction: row !important;
+    padding: 2em 0 0em !important;
+    overflow: hidden;
+  }
+  .ProgressBar-step {
+    display: unset !important;
+    text-align: center;
+  }
+  .ProgressBar-step:before,
+  .ProgressBar-step:after {
+    height: 9px !important;
+    width: 100% !important;
+    left: 0 !important;
+    top: 0 !important;
+    transform: translate(-60px, 14px) !important;
+  }
+  .ProgressBar-stepLabel {
+    margin-left: 0 !important;
+  }
+  .ProgressBar-step:after {
+    background-color: #a40000;
+    width: 0% !important;
+  }
+  .ProgressBar-step.is-complete + .ProgressBar-step.is-current:after,
+  .ProgressBar-step.is-complete + .ProgressBar-step.is-complete:after {
+    width: 100% !important;
+  }
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: unset !important;
+  }
+  .container.options {
+    margin-top: 0px !important;
+  }
+  .row.buttons {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .buttonSection {
+    flex-wrap: wrap;
+  }
+  .wrapper {
+    margin: 2em auto !important;
+  }
+  .imgCard img {
+    min-width: 100px;
+  }
+  button.wcag.btn {
+    display: none;
+  }
+  footer .col-12.col-xl-4 {
+    text-align: center;
+  }
+  .col-12.col-xl-4.attachments {
+    border-left: none !important;
+  }
+  h1.mainHeaderTitle.p-enabled {
+    padding: 10px;
+  }
+  h1.mainHeaderTitle {
+    font-size: 26px;
+  }
+  #anchor
+  {
+    top: -35px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .mainHeaderTitle {
+    font-size: 26px !important;
+    line-height: 33px !important;
+  }
+  .buttonDiv {
+    font-size: 24px !important;
+  }
+  .dx-overlay-content.dx-popup-normal.dx-resizable.dx-popup-inherit-height.dx-popup-fullscreen-width
+  {
+    margin: 15px !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main,
+  footer.footer {
+    border-left: none !important;
+  }
+  .imgCardL {
+    width: 25% !important;
+  }
+  .imgCardR {
+    width: 75% !important;
+  }
+  .formSection {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+  .ProgressBar-step {
+    height: auto !important;
+  }
+  span.ProgressBar-stepLabel {
+    display: none !important;
+  }
+  .ProgressBar-step:before,
+  .ProgressBar-step:after {
+    transform: translate(-50%, 14px) !important;
+  }
+  .secendaryHeader {
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+  h5.secendaryHeaderText {
+    text-indent: var(--bar-width);
+    line-height: 38px;
+  }
+  .secendaryHeader::before {
+    left: 0 !important;
+    top: 8px !important;
+  }
+  .stepx .formContent .formSection .row,
+  .stepx
+    .dx-show-invalid-badge.dx-radiogroup.dx-radiogroup-horizontal.dx-widget,
+  .stepx .dx-widget.dx-collection {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  button {
+    width: 100% !important;
+    margin-top: 20px;
+    min-width: unset !important;
+  }
+  .container.options {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+  .mainHeaderTitle {
+    font-size: 20px !important;
+    line-height: 28px !important;
+    font-weight: 400;
+  }
+  .buttonSection-p0 {
+    flex-wrap: wrap !important;
+  }
+  .buttonDiv {
+    font-size: 20px !important;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .binCardWrapper {
+    width: 100%;
+  }
+  .sectionTitle
+  {
+    font-weight: 700 !important;
+  }
+  .serviceLocalButtonsWrap 
+  {
+    flex-direction: column !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card.option .row {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .imgCardL {
+    width: 100% !important;
+  }
+  .imgCardR {
+    width: 100% !important;
+  }
+  .imgCard img {
+    width: 100px;
+    padding: 0;
+  }
+  .navHeader {
+    font-size: 14px !important;
+  }
+  .navHeader div.initial {
+    width: 19px !important;
+    height: 19px !important;
+    line-height: 15px !important;
+  }
+  .navBar {
+    padding: 0 !important;
+    padding-left: 8px !important;
+  }
+  .mainHeader {
+    margin-top: 0 !important;
+    background-position: center 43px !important;
+  }
+  p.card-text {
+    font-size: 18px !important;
+  }
+  .stepx
+    .dx-show-invalid-badge.dx-radiogroup.dx-radiogroup-horizontal.dx-widget {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+  }
+  .stepx .formContent .formSection .row,
+  .stepx
+    .dx-show-invalid-badge.dx-radiogroup.dx-radiogroup-horizontal.dx-widget,
+  .stepx .dx-widget.dx-collection {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+  }
+  .formSection.btn-group.d-flex {
+    flex-wrap: wrap;
+  }
+  .dx-popup-content {
+    padding: 5px !important;
+  }
+  .row > * {
+    padding: 2px !important;
+  }
+  .sectionContent {
+    padding: 2px !important;
+    margin: 2px !important;
+  }
+  .card.local {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+  .card.bin {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .buttonDiv {
+    font-size: 20px !important;
+    line-height: 21px !important;
+    padding-top: 15px !important;
+  }
+  .sectionContent {
+    padding: 2px !important;
+    margin: 2px !important;
+  }
+  .mainHeaderTitle {
+    font-size: 18px !important;
+  }
+  .sectionTitle {
+    font-size: 18px !important;
+  }
+  .container-fluid {
+    padding: 0 !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+  .dx-accordion-item-body
+  {
+    padding: 0 !important;
+  }
+  .box 
+  {
+    display: block !important;
+  }
+}
